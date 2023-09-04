@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:hint="Ingrese el primer texto"
+        android:textColor="@color/colorTextBottom"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:hint="Ingrese el segundo texto"
+        android:textColor="@color/colorTextBottom"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/buttonCompare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15sp"
+        android:layout_marginBottom="15sp"
+        android:background="@color/colorDisabled"
+        android:enabled="false"
+        android:padding="10sp"
+        android:text="Comparar"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Resultado: "
+        android:textColor="@color/colorTextBottom"
+        android:textSize="25sp" />
+
+</LinearLayout>
